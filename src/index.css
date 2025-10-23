@@ -1,0 +1,10 @@
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: antiquewhite;
+  font-family: comic sans ms;
+}
