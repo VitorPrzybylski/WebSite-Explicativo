@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom"
 import "./style.css"
-function Home(){
-    return(
-        <>  
+function Home() {
+    return (
+        <>
             <main id="home">
                 <h1>Home</h1>
-                    <div></div>
-
-            </main>          
-         </>
-    )}
+            </main>
+            <Link to="/Css">
+                <button type="button">VOLTAR</button>
+            </Link>
+        </>
+    )
+}
 export default Home;

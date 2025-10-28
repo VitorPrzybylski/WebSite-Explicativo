@@ -1,3 +1,10 @@
 main{
     background-color: purple;
+    border: 6px;
+   
+}
+button{
+    size: 10cm;
+    box-shadow: 8px;
+    border-radius: 10px;
 }
