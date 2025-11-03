@@ -1,0 +1,127 @@
+/* #root {
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #f7e7ce;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+button {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(99, 102, 241, 0.6);
+  background: linear-gradient(135deg, #6366f1, #818cf8);
+}
+#homeBotao{
+  background-color: aquamarine;
+}
+header{
+  font-size: large;
+} */
+ /* === Estilo base === */
+/* === Base === */
+body {
+  font-family: "Comic Neue", "Patrick Hand", cursive;
+  background-color: #fdfcf5;
+  background-image: repeating-linear-gradient(
+    #fdfcf5,
+    #fdfcf5 28px,
+    #d6e0f5 29px
+  ); /* linhas tipo caderno */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Cabeçalho === */
+header {
+  background-color: #fff7e6;
+  border-bottom: 2px solid #e0d4b7;
+  text-align: center;
+  padding: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d2d2d;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* === Área principal === */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 70vh;
+  padding: 40px 0;
+}
+
+/* === Caixa de conteúdo (parece uma folha) === */
+.section {
+  background-color: #fffdf8;
+  border: 1px solid #ddd;
+  border-left: 6px solid #a7c7e7; /* linha da margem do caderno */
+  width: 600px;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+  text-align: left;
+}
+
+/* === Navegação === */
+
+
+button {
+  background-color: #a7c7e7;
+  border: 1px solid #8fb7d8;
+  color: #1e3a5f;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #bcd8f2;
+  transform: translateY(-1px);
+}
+
+/* === Texto principal === */
+.section h2 {
+  font-size: 1.6rem;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* === Rodapé === */
+footer {
+  background-color: #fff7e6;
+  color: #444;
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #e0d4b7;
+  font-size: 0.9rem;
+  font-style: italic;
+}
