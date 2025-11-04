@@ -4,7 +4,7 @@ function Css() {
     return (
         <>
             <header>CSS</header>
-                <nav>
+            <nav>
                 <Link to="/">
                     <button type="button">Home</button>
                 </Link>
@@ -22,36 +22,62 @@ function Css() {
                 </Link>
 
             </nav>
-           <main id="Html5Meio">
+            <main>
                 <h1>CONTEUDO</h1>
-                <h3>Css é uma linguagem de estilizaçao para mudar o estilo da pagina web organizando objetos e </h3>
+                <h3>Css é uma linguagem de estilizaçao para mudar o estilo da pagina web organizando objetos e  deixar o site  bonito</h3>
                 <h2>Inicio/criaçao</h2>
-                <p>! tab, cria automatico um inicio no codigo</p>
-                <p>Alt + L + O para visualizar HTML no navegador</p>
+                <p>o inicio do Css é simples, apenas usar a tag que voce quiser e abrir chaves</p>
                 <p>
+                    <h3>Background color </h3>
                     <ul>
-                        <li> h1 para titulo 1 </li>
-                        <li> h2 para titulo 2 </li>
-                        <li> h3 para titulo 3 </li>
-                        <li> p  para paragrafos </li>
-                        <li> em para textos em negrito </li>
-                        <li> u para sublinhar a linha </li>
-                        <li> div para  divisoes </li>
-                        <li> a para links </li>
-                        <li> button para botoes </li>                    
+                        <li> usado para definir a cor do fundo de quase qualquer coisa </li>
+                        <li> tambem pode ser usado imagens e rotaçoes no fundo </li>
                     </ul>
-                </p>
-                <h2>Importar imagens ou scripts </h2>
-                <p>src é usado para importar imagens e scripts</p>
-                <p>img scr para importar imagens </p>
-                <p>a href é a sintaxe correta para um link em HTML, sendo Youtube, Spotfy, Twitch ou qualquer outro</p>
-
-                <h2>Extras</h2>
-                <p>
-                    <h3>p para paragrafos pode ser acompahado de um aling ex:</h3>
-                    align="left"
-                    align="right"
-                    align="center"
+                    <h3>Color</h3>
+                    <ul>
+                        <li> coloraçao das letras </li>
+                        <li> color-scheme para alterar entre modo escuro e modo claro </li>
+                    </ul>
+                    <h3>Height</h3>
+                    <ul>
+                        <li> ajusta a altura do objeto </li>
+                    </ul>
+                    <h3>Width</h3>
+                    <ul>
+                        <li> ajusta a largura do objeto </li>
+                    </ul>
+                    <h3>Box-shadow</h3>
+                    <ul>
+                        <li> cria contraste </li>
+                        <li> borda com sombra </li>
+                    </ul>
+                    <h3>Text-aling</h3>
+                    <ul>
+                        <li> alinha o texto </li>
+                        <li> left, right, center, justify </li>
+                    </ul>
+                    <h3>Border-radius</h3>
+                    <ul>
+                        <li> ajusta o raio da borda </li>
+                        <li> ajusta o objeto para mais pontudo ou mais circular </li>
+                    </ul>
+                    <h3>display: flex</h3>
+                    <ul>
+                        <li> ativa o layout flexível </li>
+                        <li> permite usar comando flexiveis </li>
+                    </ul>
+                    <h3> flex-direction: column</h3>
+                    <ul>
+                        <li> coloca os elementos em coluna </li>
+                    </ul>
+                    <h3>align-items</h3>
+                    <ul>
+                        <li> centraliza horizontalmente </li>
+                    </ul>
+                    <h3>justify-content</h3>
+                    <ul>
+                        <li>centraliza verticalmente</li>
+                    </ul>
                 </p>
             </main>
         </>
