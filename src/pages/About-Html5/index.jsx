@@ -37,7 +37,7 @@ function Html5() {
                         <li> u para sublinhar a linha </li>
                         <li> div para  divisoes </li>
                         <li> a para links </li>
-                        <li> button para botoes </li>                    
+                        <li> button para botoes </li>
                     </ul>
                 </p>
                 <h2>Importar imagens ou scripts </h2>
@@ -51,6 +51,31 @@ function Html5() {
                     align="left"
                     align="right"
                     align="center"
+                </p>
+                <p>
+                <h3>Body</h3>
+                <ul>
+                    <li>define o inicio e o fim do corpo do codigo</li>
+                    <li>fonte</li>
+                    <li>espaço da tela</li>
+                    <li>cor de fundo</li>
+                    <li>cor das letras</li>
+                </ul>
+                <h3>header</h3>
+                <ul>
+                    <li>cabeçalho da aplicaçao</li>
+                </ul>
+                <h3>footer</h3>
+                <ul>
+                    <li>roda pé do projeto</li>
+                </ul>
+                <h3>button</h3>
+                <ul>
+                    <li>cria um botao</li>
+                    <li>pode seer atribuido diferentes funçoes para esse botao</li>
+                    <li>rotas</li>
+                    <li>alterar objetos</li>
+                </ul>
                 </p>
             </main>
         </>

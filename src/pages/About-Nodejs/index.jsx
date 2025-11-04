@@ -4,7 +4,7 @@ function Nodejs() {
     return (
         <>
             <header>Nodejs</header>
-              <nav>
+            <nav>
                 <Link to="/">
                     <button type="button">Home</button>
                 </Link>
@@ -23,19 +23,20 @@ function Nodejs() {
 
             </nav>
             <main>
-                <h1>CONTEUDO</h1>
-
-                <h2>MINI-TITULO</h2>
-                <p>explicaçao</p>
-
-                <h2>MINI-TITULO</h2>
-                <p>explicaçao</p>
-
-                <h2>MINI-TITULO</h2>
-                <p>explicaçao</p>
-
-                <h2>MINI-TITULO</h2>
-                <p>explicaçao</p>
+                <h3>NodeJs</h3>
+                <p>
+                    <h3>Inicio </h3>
+                    <ul>
+                        <li> npm create vite@latest . --template react </li>
+                        <li> escolher React e depois JavaScript e digitar npm i </li>
+                    </ul>
+                    
+                    <h3>Inicio </h3>
+                    <ul>
+                        <li> npm create vite@latest . --template react </li>
+                        <li> escolher React e depois JavaScript e digitar npm i </li>
+                    </ul>
+                </p>
             </main>
         </>
 
