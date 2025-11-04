@@ -23,7 +23,6 @@ function Css() {
 
             </nav>
             <main>
-                <h1>CONTEUDO</h1>
                 <h3>Css é uma linguagem de estilizaçao para mudar o estilo da pagina web organizando objetos e  deixar o site  bonito</h3>
                 <h2>Inicio/criaçao</h2>
                 <p>o inicio do Css é simples, apenas usar a tag que voce quiser e abrir chaves</p>
