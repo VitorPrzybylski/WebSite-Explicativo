@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import "./style.css"
-function JScrip() {
+function React() {
     return (
         <>
-            <header>JScrip</header>
-             <nav>
+            <header>React</header>
+            <nav>
                 <Link to="/">
                     <button type="button">Home</button>
                 </Link>
@@ -14,11 +14,11 @@ function JScrip() {
                 <Link to="/Html5">
                     <button type="button">Html5</button>
                 </Link>
+                <Link to="/JScrip">
+                    <button type="button">JScrip</button>
+                </Link>
                 <Link to="/Nodejs">
                     <button type="button">Nodejs</button>
-                </Link>
-                <Link to="/React">
-                    <button type="button">React</button>
                 </Link>
 
             </nav>
@@ -36,13 +36,11 @@ function JScrip() {
 
                 <h2>MINI-TITULO</h2>
                 <p>explicaçao</p>
-
             </main>
-
         </>
 
 
     )
 
 }
-export default JScrip;
+export default React;
