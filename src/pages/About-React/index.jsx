@@ -54,6 +54,7 @@ function React() {
 
                         <h4>Link</h4>
                         <li> tem a funçao de navegaçao entre os arquivos de rotas </li>
+                        <li> pode ser colocado em qualquer pagina, se deseja fazer a navegaçao dessa pagina para outra </li>
 
                     </ul>
                     <h3>DICAS </h3>

@@ -76,6 +76,28 @@ function Html5() {
                     <li>rotas</li>
                     <li>alterar objetos</li>
                 </ul>
+                <h3>ul/ol</h3>
+                <ul>
+                    <li>cria um conjunto de palavras, semelhante as usadas nos exemplos</li>
+                    <li>cria pontos e separa </li>
+                    <li>ol para criar listas ordenadas </li>
+                    <li>ul não ordenadas </li>
+                </ul>
+                <h3>div e section</h3>
+                <ul>
+                    <li>Organizar o layouts</li>
+                    <li>agrupar conteúdos de diferentes assuntos </li>
+                </ul>
+                <h3>form</h3>
+                <ul>
+                    <li>usado para coletar dados do usuario</li>
+                    <li>caixas de mensagens onde, quando preenchidas podem enviar um valor </li>
+                </ul>
+                <h3>audio e video</h3>
+                <ul>
+                    <li>capazes de reproduzir áudio</li>
+                    <li>util para rodar vídeo diretamente no navegador</li>
+                </ul>
                 </p>
             </main>
         </>

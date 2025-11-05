@@ -63,6 +63,11 @@ function Nodejs() {
                         <li> async marca uma função como assíncrona, retornando uma promise </li>
                         <li> await espera a resposta antes de continuar o código  </li>
                     </ul>
+                    <h3>exports</h3>
+                    <ul>
+                        <li> Função de dividir o código em arquivos e módulos reutilizáveis. </li>
+                        <li> permite criar uma funçao, e chamar ela novamente em outra situaçao no codigo </li>
+                    </ul>
                 </p>
             </main>
         </>
