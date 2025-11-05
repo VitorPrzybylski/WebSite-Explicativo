@@ -50,6 +50,17 @@ function Css() {
                         <li> cria contraste </li>
                         <li> borda com sombra </li>
                     </ul>
+                    <h3>Button</h3>
+                    <ul>
+                        <li> cria um botao </li>
+                        <li> customizavel </li>
+                    </ul>
+                    <h3>Button:hover </h3>
+                    <ul>
+                        <li> botao quando um mouse passa por cima </li>
+                        <li> customizavel </li>
+                        <li> capacidade de colocar para o ponteiro do mouse mudar ao passar pelo botao </li>
+                    </ul>
                     <h3>Text-aling</h3>
                     <ul>
                         <li> alinha o texto </li>
@@ -76,6 +87,11 @@ function Css() {
                     <h3>justify-content</h3>
                     <ul>
                         <li>centraliza verticalmente</li>
+                    </ul>
+                    <h3>background-image</h3>
+                    <ul>
+                        <li>background image, permite colocar uma imagem como fundo</li>
+                        <li>necessario passar a url da imagem</li>
                     </ul>
                 </p>
             </main>
